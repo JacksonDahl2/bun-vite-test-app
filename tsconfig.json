@@ -18,8 +18,9 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "types": ["bun-types"]
   },
-  "include": ["src"],
+  "include": ["src", "src/server/server.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
