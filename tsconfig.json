@@ -19,7 +19,9 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "types": ["bun-types"]
+    "types": ["bun-types"],
+
+    "allowSyntheticDefaultImports": true
   },
   "include": ["src", "src/server/server.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
