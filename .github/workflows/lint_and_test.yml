@@ -19,7 +19,7 @@ jobs:
       - name: Setup bun
         uses: oven-sh/setup-bun@v1
         with:
-          bun-version: 'latest'
+          bun-version: 1.0.11
           cache: 'bun'
 
       - name: Install packages
